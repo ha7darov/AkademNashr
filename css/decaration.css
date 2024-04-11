@@ -1,0 +1,17 @@
+/* Universal Selection */
+
+*::selection{
+    background-color: var(--classic-color);
+    color: white;
+}
+
+
+/* Scroolbar */
+::-webkit-scrollbar{
+    width: 16px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: var(--classic-color);
+    border: 2px solid black;
+    border-radius: 3px;
+}

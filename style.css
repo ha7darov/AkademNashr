@@ -7,148 +7,36 @@
 /* * Decaration's Style */
 @import url(./css/decaration.css);
 
+/* * General Element */
+@import url(./css/general.css);
 
+/* * Container */
+@import url(./css/container.css);
 
-/* Footer I tag */
-.fa-telegram, .fa-facebook, .fa-instagram {
-    color: black;
-    font-size: 34px;
-}
+/* * Varriables */
+@import url(./css/varriables.css);
+
 
 /* TODO: ================ START ================*/
 
 
-
-
-
-
-
-
-body{
-    font-size: 16px;
-    line-height: 1.5;
-    font-family: Roboto, Arial, sans-serif;
-    letter-spacing: 0.5px;
-}
-
-
-
-
-/* navbar */
-.site-header{
-    background-color: #fff;
-}
-.sitenav-list{
-    list-style: none;
-}
-.sitenav-link{
-    font-weight: 500;
+/* ALL PACK BTN BEST PRACTIC */
+.btn-sign-up {
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 4px;
     font-size: 13px;
     line-height: 15px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #000;
-}
-.main-link{
-    font-size: 13px;
-    line-height: 15px;
-    background-color: #FF7500;
+    font-weight: bold;
+    background-color: var(--classic-color);
     color: #fff;
     text-decoration: none;
+    transition: opacity 0.4s ease;
 }
-
-
-/* Hero || Header */
-.hero{
-    background-color: #252420;
-    color: #fff;
+  
+.btn-sign-up:hover {
+    opacity: 0.8;
 }
-.hero-content{
-    width: 390px;
-}
-.orange-line{
-    width: 80px;
-    height: 3px;
-    background-color: #FF7500;
-}
-.hero-img{
-    width: 510px;
-    height: 510px;
-}
-.hero-heading{
-    font-size: 40px;
-    line-height: 1.2;
-    font-family: "Roboto Condensed", Roboto, Arial, sans-serif;
-}
-.hero-text{
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-
-/* * First Section */
-.features-heading{
-    width: 440px;
-    font-size: 72px;
-    line-height: 1.2;
-    font-family: "Roboto Condensed", Roboto, Arial, sans-serif;
-}       
-.feature{
-    width: 340px;   
-}
-.feature-icon-wrapper{
-    width: 100px;
-    height: 100px;
-    background-color: rgba(255, 117, 0, 0.2);
-}
-.features-title{
-    font-style: 24px;
-    line-height: 1.2;
-    font-family: "Roboto Condensed", Roboto, Arial, sans-serif;
-}
-
-
-
-/* * Second Section  */
-.promo{
-    background-color: #252420;
-    color: #fff;
-}
-.promo-content{
-    width: 440px;
-}
-.promo-heading{
-    font-size: 40px;    
-    line-height: 48px;
-    font-family: "Roboto Condensed", Roboto, Arial, sans-serif;
-}
-.promo-highlight{
-    color: #FF7500;
-}
-.promo-img{
-    width: 440px;
-    height: 440px;
-    object-fit: cover;
-}
-
-
-/* * Footer */
-.site-footer{
-    background-color: #F8F8F8;
-}
-.site-footer ul{
-    list-style: none;
-}
-.site-footer-divider{
-    height: 2px;
-    background-color: rgba(37, 36, 32, 0.5);
-}
-.site-footer-links{
-    width: 224px;
-    line-height: 19px;
-}
-.site-footer-links a{
-    text-decoration: none;
-    color: #252420;
+.btn-sign-up:active {
+    opacity: 0.6;
 }

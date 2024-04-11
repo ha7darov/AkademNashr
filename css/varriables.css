@@ -1,0 +1,9 @@
+
+:root {
+    /* Color */
+    --classic-color: #ff7500;
+  
+    /* Font's */
+    --text-font: "Roboto", "Arial", sans-serif;
+    --heading-font: "Roboto Condensed", "Roboto", "Arial", sans-serif;
+}

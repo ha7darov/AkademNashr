@@ -1,0 +1,96 @@
+/* * ========= Footer ========= */
+
+.site-footer {
+    padding-top: 56px;
+    padding-bottom: 56px;
+    background-color: #f8f8f8;
+  }
+  
+  .site-footer-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .site-footer ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .site-footer-socials {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  .site-footer-socials li {
+    margin-right: 16px;
+  }
+  
+  .site-footer-socials li:last-child {
+    margin-right: 0;
+  }
+  
+  .site-footer-socials a:active {
+    opacity: 0.6;
+  }
+  
+  .site-footer-socials svg {
+    display: block;
+  }
+  
+  .site-footer-divider {
+    height: 2px;
+    border: 0;
+    margin-top: 40px;
+    margin-bottom: 64px;
+    background-color: rgba(37, 36, 32, 0.5);
+  }
+  
+  .site-footer-bottom {
+    display: flex;
+  }
+  
+  .site-footer-links {
+    width: 224px;
+    padding: 0;
+    margin: 0;
+    margin-right: 68px;
+    list-style: none;
+    line-height: 19px;
+  }
+  
+  .site-footer-links:last-child {
+    margin-right: 0;
+  }
+  
+  .site-footer-links li {
+    margin-bottom: 16px;
+  }
+  
+  .site-footer-links li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .site-footer-links a {
+    text-decoration: none;
+    color: #252420;
+  }
+  
+  .site-footer-links a:hover {
+    color: var(--classic-color);
+  }
+  
+  .site-footer-links a:active {
+    opacity: 0.6;
+  }
+
+/* ====== Font Awsome Social Icon's ====== */
+.fa-telegram, .fa-facebook, .fa-instagram {
+    color: black;
+    font-size: 34px;
+}
+.fa-telegram:hover, .fa-facebook:hover, .fa-instagram:hover {
+    color: var(--classic-color);
+    transition: 0.4s;
+}

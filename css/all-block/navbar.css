@@ -1,0 +1,36 @@
+/* * =============== NAVBAR =============== */
+.navbar-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-right: 32px;
+    list-style: none;
+  }
+  
+  .navbar-list__item {
+    margin-right: 32px;
+  }
+  
+  .navbar-list__item:last-child {
+    margin-right: 0;
+  }
+  
+  .navbar-list--item__hr {
+    font-size: 13px;
+    line-height: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    transition: color 0.4s ease,
+    opacity 0.4s ease;
+  }
+  
+  .navbar-list--item__hr:hover {
+    color: var(--classic-color);
+  }
+  
+  .navbar-list--item__hr:active {
+    opacity: 0.6;
+  }
