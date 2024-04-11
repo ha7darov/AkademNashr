@@ -1,4 +1,89 @@
+/* * All Block's Style */
+@import url(./css/all-block/all-block.css);
+
+/* * All Section's Style */
+@import url(./css/section/all-section.css);
+
+/* * Decaration's Style */
+@import url(./css/decaration.css);
+
+
+
+/* Footer I tag */
 .fa-telegram, .fa-facebook, .fa-instagram {
     color: black;
     font-size: 34px;
 }
+
+/* TODO: ================ START ================*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* navbar */
+.site-header{
+    background-color: #fff;
+}
+.sitenav-link{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+.main-link{
+    font-size: 13px;
+    line-height: 15px;
+    background-color: #FF7500;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/* Hero || Header */
+.hero{
+    background-color: #252420;
+    color: #fff;
+}
+.hero-content{
+    width: 390px;
+}
+.orange-line{
+    width: 80px;
+    height: 3px;
+    background-color: #FF7500;
+}
+.hero-img{
+    width: 510px;
+    height: 510px;
+}
+.hero-heading{
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+}
+.hero-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+
+/* * First Section */
+.features-heading{
+    width: 440px;
+    font-size: 72px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+}       
