@@ -10,9 +10,14 @@
 
     <!-- * FavIcon -->
     <link rel="icon" href="./assets/brand/favicon.png">
+
+    <!-- * Roboto Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     
     <!-- * Normalize CSS -->
-    <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
+    <!-- <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css"> -->
     
     <!-- * Font Awsome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
@@ -28,7 +33,7 @@
         <a href="index.html">
             <img src="assets/brand/logo.svg" alt="Akademnashr Logo" width="227" height="60">
         </a>
-        <nav>
+        <nav class="sitenav-list">
             <ul>
                 <li><a class="sitenav-link" href="#">Bosh sahifa</a></li>
                 <li><a class="sitenav-link" href="#">Kitoblar</a></li>
@@ -59,38 +64,44 @@
             <hr class="orange-line">
             <h2 class="features-heading">Nega aynan Akademnashr?</h2>
             <ul>
-                <li>
-                    <img src="./assets/second section/cursor-click.svg" alt="" width="56" height="56">
-                    <h3>Oson buyurtma qilish</h3>
-                    <p>Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda buyurtma qila olasiz.</p>
+                <li class="feature">
+                    <div class="feature-icon-wrapper">
+                        <img src="./assets/second section/cursor-click.svg" alt="" width="56" height="56">
+                    </div>
+                    <h3 class="features-title">Oson buyurtma qilish</h3>
+                    <p class="feature-info">Akademnashr.uz saytidan o’zingizga yoqqan kitobni sodda usulda buyurtma qila olasiz.</p>
                 </li>
-                <li>
-                    <img src="./assets/second section/sparkles.svg" alt="" width="56" height="56">
-                    <h3>Eng sara kitoblar</h3>
-                    <p>Trenddagi eng ommabop, turli auditoriyalarga mo’ljallangan har xil janrdagi kitoblarni topa olasiz.</p>
+                <li class="feature">
+                    <div class="feature-icon-wrapper">
+                        <img src="./assets/second section/sparkles.svg" alt="" width="56" height="56">
+                    </div>
+                    <h3 class="features-title">Eng sara kitoblar</h3>
+                    <p class="feature-info">Trenddagi eng ommabop, turli auditoriyalarga mo’ljallangan har xil janrdagi kitoblarni topa olasiz.</p>
                 </li>
-                <li>
-                    <img src="./assets/second section/lightning-bolt.svg" alt="" width="56" height="56">
-                    <h3>Tez yetkazib berish</h3>
-                    <p>O’zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro buyurtmalarni 10 ish kuni ichida yetkazib beriladi.</p>
+                <li class="feature">
+                    <div class="feature-icon-wrapper">
+                        <img src="./assets/second section/lightning-bolt.svg" alt="" width="56" height="56">
+                    </div>
+                    <h3 class="features-title">Tez yetkazib berish</h3>
+                    <p class="feature-info">O’zbekistonning ixtiyoriy hududiga 3 ish kuni ichida, xalqaro buyurtmalarni 10 ish kuni ichida yetkazib beriladi.</p>
                 </li>
             </ul>
         </section>
         <!-- AKTSIYA -->
-        <section>
-            <div>
-                <h2>Bolalar kitoblari uchun ajoyib aksiya!</h2>
-                <p>Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
-                <p>Aksiyadagi eng katta to’plamda <strong>50 ta kitob</strong>ni <strong>350 ming</strong> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
-                <a href="#">Buturtma berish</a>
+        <section class="promo">
+            <div class="promo-content">
+                <h2 class="promo-heading">Bolalar kitoblari uchun ajoyib aksiya!</h2>
+                <p class="promo-text">Ertaklar, she’rlar, sarguzasht asarlar, fikrlashni o’stirish uchun turli mashq qo’llanmalari va komikslar.</p>
+                <p class="promo-text">Aksiyadagi eng katta to’plamda <strong class="promo-highlight">50 ta kitob</strong>ni <strong class="promo-highlight">350 ming</strong> so’mga (aslida 383 ming so’m) sotib olishingiz mumkin.</p>
+                <a class="main-link" href="#">Buturtma berish</a>
             </div>
-            <img src="./assets/thirty srction/sale-img@2x.jpg" width="440" height="440" alt="Kitoblar to'plami rasmi">
+            <img class="promo-img" src="./assets/thirty srction/sale-img@2x.jpg" alt="Kitoblar to'plami rasmi">
         </section>
     </main>
     
     
     <!-- SITE FOOTER -->
-    <footer>
+    <footer class="site-footer">
         <div>
             <a href="index.html">
                 <img src="./assets/brand/logo.svg" width="227" height="60" alt="Akademnashr logosi">
@@ -115,17 +126,17 @@
             </ul>
         </div>
         
-        <hr>
+        <hr class="site-footer-divider">
         
         <!-- LINKLAR -->
         <div>
-            <ul>
+            <ul class="site-footer-links">
                 <li><a href="#">Bosh sahifa</a></li>
                 <li><a href="#">Kitoblar</a></li>
                 <li><a href="#">Yangiliklar</a></li>
                 <li><a href="#">Kontaktlar</a></li>
             </ul>
-            <ul>
+            <ul class="site-footer-links">
                 <li><a href="#">Ilmiy nashrlar</a></li>
                 <li><a href="#">Ilmiy-ommabop nashrlar</a></li>
                 <li><a href="#">Mar'rifiy nashrlar</a></li>
@@ -134,12 +145,12 @@
                 <li><a href="#">Abituryentlar uchun</a></li>
                 <li><a href="#">Bolalar uchun</a></li>
             </ul>
-            <ul>
+            <ul class="site-footer-links">
                 <li><a href="#">Ko’p so’raladigan savollar</a></li>
                 <li><a href="#">Yetkazib berish haqida</a></li>
                 <li><a href="#">To’lov usullari haqida</a></li>
             </ul>
-            <ul>
+            <ul class="site-footer-links">
                 <li><a href="#">Bo’sh ish o’rinlari</a></li>
                 <li><a href="#">Biz bilan bog’lanish</a></li>
                 <li><a href="#">Maxfiylik nizomi</a></li>
